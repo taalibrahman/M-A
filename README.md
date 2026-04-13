@@ -214,7 +214,7 @@ The datasets included cover tech-sector M&A activity and contain:
 
 ## 🙋 Authors
 
-**Saim Barkat**[GitHub](https://github.com/saim971)
-**Taalib Rahman**[GitHub](https://github.com/taalibrahman) 
-**Aayan Shahid**[GitHub](https://github.com/aayu192006)
- · Built as an end-to-end ML + full-stack project exploring the intersection of finance and machine learning.
+- **Saim Barkat**[GitHub](https://github.com/saim971)
+- **Taalib Rahman**[GitHub](https://github.com/taalibrahman) 
+- **Aayan Shahid**[GitHub](https://github.com/aayu192006)
+· Built as an end-to-end ML + full-stack project exploring the intersection of finance and machine learning.
