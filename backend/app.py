@@ -210,7 +210,7 @@ async def predict(deal: DealRequest):
             features = [{"name": feat.replace('_', ' ').title(), "value": float(imp * 100)} for feat, imp in top_features.items()]
         
         return {
-            "score": score,
+            "score": float(score),
             "verdict": verdict,
             "confidence": confidence,
             "features": features
