@@ -217,8 +217,10 @@ async def predict(deal: DealRequest):
         }
         
     except Exception as e:
+        import traceback
+        trace = traceback.format_exc()
         print(f"Error evaluating prediction: {e}")
-        raise HTTPException(status_code=500, detail=str(e))
+        return {"error": str(e), "traceback": trace}
 
 if __name__ == "__main__":
     import uvicorn
