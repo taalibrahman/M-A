@@ -1,0 +1,19 @@
+# Node modules
+frontend/node_modules/
+frontend/dist/
+
+# Python Virtual environments and caches
+backend/venv/
+backend/env/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Large model files (Optional - depending on if you want it in git!)
+# Usually .pkl files larger than 100MB should be handled via Git LFS, but if it's small, it's fine.
+# mna_model.pkl
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
